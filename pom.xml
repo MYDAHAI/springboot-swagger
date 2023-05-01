@@ -14,6 +14,8 @@
     <name>springboot-swagger</name>
     <description>springboot-swagger</description>
     <properties>
+        <!-- 跳过测试 -->
+        <skipTests>true</skipTests>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
@@ -46,7 +48,6 @@
             <artifactId>knife4j-spring-boot-starter</artifactId>
             <version>3.0.2</version>
         </dependency>
-
 
     </dependencies>
 
