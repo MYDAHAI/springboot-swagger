@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 //@Api(tags = "这是一个controller") // 用在请求的类上，表示对类的说明
-@Tag(name = "TestController",description = "这是一个controller--测试")
+@Tag(name = "TestController",description = "这是一个controller")
 @Controller
 public class TestController {
 
